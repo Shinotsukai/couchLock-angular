@@ -1,0 +1,31 @@
+
+<ons-page>
+
+    <div class="content">
+    
+        <ons-card  *ngFor="let movie of inCinema">
+            <div class="title">{{movie.title}}</div>
+            <div class="title">Released: {{movie.release_date}}</div>
+            <div class="content">
+                <div class="cardImg" >
+                    <img src="https://image.tmdb.org/t/p/w500{{movie.backdrop_path}}" width="100%">
+                </div>
+                {{movie.overview}}
+            </div>
+            <div class="footer">
+            <ons-row style="text-align: center; margin-top: 10px;">
+                <ons-col>
+                    <ons-icon icon='fa-star' style="font-size: 24px;"></ons-icon>
+                </ons-col>
+                <ons-col>
+                    <ons-icon icon='fa-heart' style="font-size: 24px;"></ons-icon>
+                </ons-col>
+            </ons-row>
+            </div>
+        </ons-card>
+    
+    
+    
+    
+    </div>
+        </ons-page>

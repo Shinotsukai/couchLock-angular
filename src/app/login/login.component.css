@@ -1,0 +1,22 @@
+.page__background{
+    background-color: #fff!important;
+}
+
+.page--jon__background {
+    background: rgb(0,255,21)!important;
+background: linear-gradient(90deg, rgba(0,255,21,1) 0%, rgba(0,212,255,1) 74%);
+}
+
+.card {
+    padding:0!important;
+}
+
+.list {
+    background:none!important;
+}
+
+.list-header {
+    background: none;
+    color: #ff5341;
+    font-weight: 600;
+}

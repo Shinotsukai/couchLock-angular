@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+/* .card {
+    background-color: #333;
+    color: #ccc;
+} */
+
+.title {
+    font-family: 'Odibee Sans', cursive!important;
+    font-size:42px!important;
+
+}
+.cardImg {
+    margin-left:-16px;
+    margin-right:-16px;
+}
+
+/* .card__content {
+    color: #ccc;
+} */
+
+
+.page--jon__background {
+    /* background: rgb(110,217,120)!important;
+    background: linear-gradient(0deg, rgba(110,217,120,1) 0%, rgba(0,212,255,1) 100%)!important; */
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #45B649, #DCE35B)!important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #45B649, #DCE35B)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+

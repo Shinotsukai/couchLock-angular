@@ -1,0 +1,30 @@
+
+<ons-page>
+
+<div class="content">
+
+    <ons-card  *ngFor="let show of airingShow">
+        <div class="title">{{show.name}}</div>
+        <div class="content">
+            <div class="cardImg" >
+                <img src="https://image.tmdb.org/t/p/w500{{show.backdrop_path}}" width="100%">
+            </div>
+            {{show.overview}}
+        </div>
+        <div class="footer">
+        <ons-row style="text-align: center; margin-top: 10px;">
+            <ons-col>
+                <ons-icon icon='fa-star' style="font-size: 24px;"></ons-icon>
+            </ons-col>
+            <ons-col>
+                <ons-icon icon='fa-heart' style="font-size: 24px;"></ons-icon>
+            </ons-col>
+        </ons-row>
+        </div>
+    </ons-card>
+
+
+
+
+</div>
+    </ons-page>
